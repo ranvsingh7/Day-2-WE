@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,auto);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+
+}
+#container>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;       
+         border-radius: 10px;
+}
+p+img{
+    height: 50px;
+    /* margin: auto; */
+
+}
+.image{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+    
+}
+p,h3,.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    
+   
+}
